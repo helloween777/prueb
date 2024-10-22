@@ -13,7 +13,7 @@ def mostrar_menu():
          st.write("Seleccionaste: Archivo")
     elif seleccion == "Editar":
         st.write("Seleccionaste: Editar")
-     elif seleccion == "ver":
+    elif seleccion == "ver":
          st.write("Seleccionaste: Ver")
     elif seleccion == "Salir":
          st:write("¡Saliendo del menú!")
