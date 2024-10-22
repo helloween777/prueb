@@ -9,14 +9,14 @@ def mostrar_menu():
 
     seleccion = st.radio("Menú", menu)
 
-        if seleccion == "Archivo":
-            st.write("Seleccionaste: Archivo")
-        elif seleccion == "Editar":
-            st.write("Seleccionaste: Editar")
-        elif seleccion == "ver":
-            st.write("Seleccionaste: Ver")
-        elif seleccion == "Salir":
-            st:write("¡Saliendo del menú!")
+    if seleccion == "Archivo":
+         st.write("Seleccionaste: Archivo")
+    elif seleccion == "Editar":
+        st.write("Seleccionaste: Editar")
+     elif seleccion == "ver":
+         st.write("Seleccionaste: Ver")
+    elif seleccion == "Salir":
+         st:write("¡Saliendo del menú!")
 
 
 if __name__=="__main__":
